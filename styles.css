@@ -1,0 +1,123 @@
+body {
+    margin: 10px;
+    
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    width: 960px;
+    text-align: center;
+}
+
+.h1H2H3Blues {
+    color: #1D3557;
+    text-shadow: 0px 0px 2px black;
+}
+
+.hero {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    /* margin-bottom: 50px; */
+    padding-top: 150px;
+    padding-bottom: 250px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;    
+    background-image: url("torshov.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+   /* 
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557 */
+
+}
+
+#visit, #enjoy {
+    font-weight: bold;
+    margin: 0 auto 20px auto;
+    border-radius: 20px;
+    padding: 5px 20px 2px 20px;
+    background: #457B9D;
+}
+
+#enjoy {
+    background: #1D3557;
+    width: 450px;
+    border-radius: 5px;
+}
+
+#midSection {
+    padding: 50px 0 30px 0;
+    background: linear-gradient(#F1FAEE, white);
+}
+
+#activities {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;    
+    margin: 50px auto 30px auto;
+}
+
+.divPadding {
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.divPadding2 {
+    width: 80%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+#activeImg {
+    width: 60%;
+    border-radius: 50%;
+    border: 4px solid red;
+}
+
+
+/***************************/
+/* Footer section */
+/***************************/
+
+#footer {
+    background: linear-gradient(white, #F1FAEE);
+}
+
+#guideDetails {
+    width: 50%;
+    margin: 30px auto 50px auto;
+    border-bottom: 10px solid #1D3557;
+    /* padding-right: auto;
+    padding-left: auto; */
+    background: linear-gradient(#A8DADC, #457B9D);
+    display: flex;
+    justify-content: space-around;
+}
+
+#TysPix {
+    width: 100%;
+}
+
+#TysFam {
+    width: 50%;
+    margin: 50px auto 30px auto;
+    border-radius: 50%;
+    border: 4px solid red;
+}
+
+
+
+/* Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+***Section background: LIGHT: #F1FAEE
+Guide div: AQUA: #A8DADC
+TitleBlurb Bgd: LIGHT BLUE: #457B9D
+Title Bgd: DARK BLUE: #1D3557
+
+*/
